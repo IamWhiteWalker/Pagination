@@ -1,0 +1,39 @@
+body{
+    background-color: #4169E1;
+}
+.Posts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.posts-button {
+    margin: 0px 5px;
+    font-size: 30px;
+    border-radius: 5px;
+    border : 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.App{
+    background-color: #FFD700;
+    min-height: 600px;
+    width: 500px;
+    margin: 40px auto;
+}
+
+.App h1{
+    margin: 40px auto;
+    text-align: center;
+    color: salmon;
+}
